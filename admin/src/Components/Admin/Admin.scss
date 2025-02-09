@@ -1,0 +1,33 @@
+.admin-container {
+    display: flex;
+    .admin-sidebar {
+        .pro-sidebar {
+            height: 100vh !important;
+            }
+    }
+}
+
+.admin-content{
+    width: 100%;
+    .admin-header{
+        height: 40px;
+        border: 1px solid green;
+    }
+    .admin-main{
+        border: 1px solid red;
+    }
+}
+.admin-header {
+    display: flex;
+    justify-content: space-between; /* Đảm bảo các phần tử con được căn chỉnh từng bên */
+    align-items: center; /* Đảm bảo các phần tử con được căn giữa theo chiều dọc */
+}
+
+.menu-icon {
+    /* Thêm bất kỳ kiểu CSS nào cho biểu tượng menu ở đây */
+}
+
+.user-icon {
+    margin-left: auto; /* Di chuyển biểu tượng người dùng sang phải cùng nhau */
+    margin-right: 10px;
+}
